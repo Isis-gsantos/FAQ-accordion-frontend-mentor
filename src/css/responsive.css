@@ -1,0 +1,13 @@
+@media (max-width: 375px) {
+    body {
+        background-image: url('../images/background-pattern-mobile.svg') !important;
+    }
+
+    .container {
+        max-width: 280px;
+    }
+
+    .item .question {
+        max-width: 230px;
+    }
+}

@@ -1,0 +1,65 @@
+body {
+    background-image: url('../images/background-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(275, 100%, 97%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 500px;
+    max-height: 650px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.title h1 {
+    font-size:40px;
+    font-weight: 700;
+}
+
+.container .item {
+    background-image: url('../images/icon-plus.svg');
+    background-repeat: no-repeat;
+    background-position:right 0 top;
+    cursor: pointer;
+    border-bottom: 1px solid hsl(275, 100%, 97%);
+}
+
+.container .item.active {
+    background-image: url('../images/icon-minus.svg');
+}
+
+.item .question {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 20px 0;
+    transition: 0.2s ease;
+    margin-bottom: 20px;
+}
+
+.item .question:hover {
+    color: #9d4edd;
+}
+
+.item .answer {
+    color: grey;
+    display: none;
+    margin-bottom: 20px;
+}
+
+.item.active .answer {
+    display: block;
+}
