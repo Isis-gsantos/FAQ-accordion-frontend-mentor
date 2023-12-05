@@ -1,4 +1,4 @@
-<h1 align="center">FAQ Frontend Mentor Resolution</h1>
+<h1 align="center">FAQ Accordion Frontend Mentor Resolution</h1>
 
 ![accordion](https://github.com/Isis-gsantos/FAQ-accordion-frontend-mentor/assets/142533840/65f25b6b-c145-42a0-9f6b-fb32871a387c)
 
